@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    string month1,month2,month3;
+    float rain1,rain2,rain3;
+    cout<<"enter month 1:";
+    getline(cin,month1);
+    cout<<"enter rain1 rain amount :";
+    cin>>rain1;
+    cout<<"enter month 2 rain amount :";
+    getline(cin,month2);
+    cout<<"enter rain2 rain amount :";
+    cin>>rain2;
+    cout<<"enter rain3 rain amount :";
+    cin>>rain3;
+    cout<<"enter month 3 rain amount :";
+    getline(cin,month3);
+    cout<<month1<<" "<<month2<<" "<<month3<<endl;
+
+
+
+
+
+
+
+
+    return 0;
+}
