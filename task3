@@ -1,1 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    double radius , height,area,volume ;
+    const double PI = 3.14159265 ;
+    cout << "Enter the radius: ";
+    cin >>radius ;
+    cout << "Enter the height: ";
+    cin >>height;
+    area =2* PI * radius  * height+2* PI*radius*radius;
+    cout << "Area is: " << area << endl;
+    cout << "Volume is: " << volume << endl;
+    return 0;
+
 
