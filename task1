@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout<<"name:\tsheeza batool \n";
+    cout<<"department:\tscit\n";
+    cout<<"quote :\t knoweledge is power \t\n";
+    return 0;
+}
+
+
